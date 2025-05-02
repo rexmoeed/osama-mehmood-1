@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 // next image
 import Image from 'next/image';
 

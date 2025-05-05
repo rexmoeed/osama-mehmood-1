@@ -22,7 +22,7 @@ const Testimonials = () => {
             initial="hidden" 
             animate="show" 
             exit="hidden" 
-            className='h2 xl:mt-5'>Hear What My Clients Say<span className='text-accent'>!</span></motion.h2>
+            className='h2 text-[28px] sm:text-[32px] md:text-[36px] xl:mt-5'>Hear What My Clients Say<span className='text-accent'>!</span></motion.h2>
             <motion.p variants={fadeIn('up', 0.4)} 
             initial="hidden" 
             animate="show" 

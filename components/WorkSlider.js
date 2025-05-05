@@ -108,7 +108,7 @@ const serviceData = [
 
 const WorkSlider = () => {
   return (
-    <div className="w-full max-w-[1000px] mx-auto px-4">
+    <div className="w-full max-w-[800px] mx-auto px-4">
       <Swiper
         breakpoints={{
           320: {
@@ -135,7 +135,7 @@ const WorkSlider = () => {
 
               
               {/* Image */}
-              <div className='w-full aspect-square relative mb-4'>
+              <div className='w-full h-[150px] aspect-square relative mb-4'>
                 <Image 
                   src={item.image} 
                   alt={item.title} 
@@ -156,7 +156,7 @@ const WorkSlider = () => {
                     {item.title}
                   </a>
                 </h3>
-                <p className='max-w-[350px] leading-normal'>{item.description}</p>
+                <p className='max-w-[200px] leading-normal'>{item.description}</p>
               </div>
 
               {/* Arrow */}

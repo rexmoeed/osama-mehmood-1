@@ -22,11 +22,11 @@ const Testimonials = () => {
             initial="hidden" 
             animate="show" 
             exit="hidden" 
-            className='h2 xl:mt-8'>Hear What My Clients Have to Say<span className='text-accent'>!</span></motion.h2>
+            className='h2 xl:mt-8'>Hear What My Clients Say<span className='text-accent'>!</span></motion.h2>
             <motion.p variants={fadeIn('up', 0.4)} 
             initial="hidden" 
             animate="show" 
-            exit="hidden" className='mb-4 max-w-[400px] mx-auto lg:mx-0'> I’m grateful for amazing clients and their kind feedback. Here’s what they’ve shared.
+            exit="hidden" className='mb-4 max-w-[400px] mx-auto lg:mx-0'> I’m grateful for amazing clients and their kind feedback.
             </motion.p>
           </div>
           {/* slider */}

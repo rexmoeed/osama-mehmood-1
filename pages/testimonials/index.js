@@ -2,7 +2,7 @@
 import Bulb from '../../components/Bulb';
 import Circles from '../../components/Circles';
 
-// framer motion 
+// framer motion
 import { motion } from 'framer-motion';
 import { fadeIn } from '../../variants';
 import TestimonialSlider from '../../components/TestimonialSlider';
@@ -14,7 +14,7 @@ const Testimonials = () => {
       <div className='container mx-auto'>
         <div className='flex flex-col xl:flex-row gap-x-8 items-center xl:items-start'>
           {/* text */}
-          <div className='text-center flex flex-col lg:text-left mb-8 xl:mb-0 xl:max-w-xl'>
+          <div className='text-center flex flex-col lg:text-left mb-8 xl:mb-0 xl:max-w-3xl'>
             <motion.h2
               variants={fadeIn('up', 0.2)}
               initial="hidden"

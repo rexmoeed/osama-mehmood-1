@@ -21,11 +21,11 @@ const Work = () => {
             initial="hidden" 
             animate="show" 
             exit="hidden" 
-            className='h2 xl:mt-8'>My Past Clients<span className='text-accent'>.</span></motion.h2>
+            className='h2 xl:mt-6'>My Past Clients<span className='text-accent'>.</span></motion.h2>
             <motion.p variants={fadeIn('up', 0.4)} 
             initial="hidden" 
             animate="show" 
-            exit="hidden" className='mb-4 max-w-[400px] mx-auto lg:mx-0'> I've helped businesses grow through digital marketing, branding, and innovation—turning.
+            exit="hidden" className='mb-3 max-w-[350px] mx-auto lg:mx-0'> I've helped businesses grow through ground breaking marketing strategies.
             </motion.p>
           </div>
           {/* slider */}

@@ -127,7 +127,8 @@ const TestimonialSlider = () => {
       >
         {serviceData.map((item, index) => (
           <SwiperSlide key={index} className="flex-shrink-0 w-auto">
-            <div className='bg-[rgba(65,47,123,0.15)] rounded-lg px-6 py-8 h-full flex flex-col justify-between items-center group hover:shadow-lg duration-300 cursor-pointer hover:bg-[rgba(89,65,169,0.15)] transition-all'>
+            <div className='bg-[rgba(65,47,123,0.15)] rounded-lg px-4 py-6 h-[320px] flex flex-col justify-between items-center group hover:shadow-lg duration-300 cursor-pointer hover:bg-[rgba(89,65,169,0.15)] transition-all'>
+
               
               {/* Image */}
               <div className='w-full aspect-[3/2] relative mb-4'> {/* Changed aspect ratio */}
@@ -151,7 +152,7 @@ const TestimonialSlider = () => {
                     {item.title}
                   </a>
                 </h3>
-                <p className='max-w-[300px] leading-normal'>{item.description}</p>
+                <p className='max-w-[240px] leading-normal'>{item.description}</p>
               </div>
 
               {/* Arrow */}

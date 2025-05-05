@@ -108,7 +108,7 @@ const serviceData = [
 
 const WorkSlider = () => {
   return (
-    <div className="w-full max-w-[1200px] mx-auto px-4">
+    <div className="w-full max-w-[1000px] mx-auto px-4">
       <Swiper
         breakpoints={{
           320: {
@@ -131,7 +131,8 @@ const WorkSlider = () => {
       >
         {serviceData.map((item, index) => (
           <SwiperSlide key={index} className="flex-shrink-0 w-auto">
-            <div className='bg-[rgba(65,47,123,0.15)] rounded-lg px-6 py-8 h-full flex flex-col justify-between items-center group hover:shadow-lg duration-300 cursor-pointer hover:bg-[rgba(89,65,169,0.15)] transition-all'>
+            <div className='bg-[rgba(65,47,123,0.15)] rounded-lg px-4 py-6 h-full flex flex-col items-center hover:shadow-lg duration-300 cursor-pointer hover:bg-[rgba(89,65,169,0.15)] transition-all'>
+
               
               {/* Image */}
               <div className='w-full aspect-square relative mb-4'>

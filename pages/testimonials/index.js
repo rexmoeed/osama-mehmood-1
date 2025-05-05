@@ -22,11 +22,11 @@ const Testimonials = () => {
             initial="hidden" 
             animate="show" 
             exit="hidden" 
-            className='h2 xl:mt-8'>Hear What My Clients Say<span className='text-accent'>!</span></motion.h2>
+            className='h2 xl:mt-5'>Hear What My Clients Say<span className='text-accent'>!</span></motion.h2>
             <motion.p variants={fadeIn('up', 0.4)} 
             initial="hidden" 
             animate="show" 
-            exit="hidden" className='mb-4 max-w-[400px] mx-auto lg:mx-0'> I’m grateful for amazing clients and their kind feedback.
+            exit="hidden" className='mb-4 max-w-[300px] mx-auto lg:mx-0'> I’m grateful for amazing clients and their kind feedback.
             </motion.p>
           </div>
           {/* slider */}
@@ -34,7 +34,7 @@ const Testimonials = () => {
             initial="hidden" 
             animate="show" 
             exit="hidden"
-            className='w-full xl:max-w-[65%]'>
+            className='w-full xl:max-w-[60%]'>
                 <TestimonialSlider />
           </motion.div>
           

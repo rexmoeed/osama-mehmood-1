@@ -16,18 +16,16 @@ const Businesses = () => {
       <div className='container mx-auto'>
         <div className='flex flex-col xl:flex-row gap-x-8 '>
           {/* text */}
-          <div className='text-center flex xl:w-[300vw] flex-col lg:text-left mb-4 xl:mb-0 '>
+          <div className='text-center flex xl:w-[250vw] flex-col lg:text-left mb-4 xl:mb-0 '>
             <motion.h2 variants={fadeIn('up', 0.2)} 
             initial="hidden" 
             animate="show" 
             exit="hidden" 
-            className='h2 xl:mt-8'>My Businesses<span className='text-accent'>.</span></motion.h2>
+            className='h2 xl:mt-5'>My Businesses<span className='text-accent'>.</span></motion.h2>
             <motion.p variants={fadeIn('up', 0.4)} 
             initial="hidden" 
             animate="show" 
-            exit="hidden" className='mb-4 max-w-[400px] mx-auto lg:mx-0'> From launching successful startups to mentoring aspiring entrepreneurs, 
-              I have dedicated my career to driving digital transformation. Today, I lead multiple ventures that cater to diverse industries, 
-              including e-commerce, education, and skincare.
+            exit="hidden" className='mb-4 max-w-[400px] mx-auto lg:mx-0'>I lead ventures across e-commerce, education, and skincare, driving digital transformation throughout my career.
             </motion.p>
           </div>
           {/* slider */}

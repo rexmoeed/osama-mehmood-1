@@ -130,7 +130,8 @@ const TestimonialSlider = () => {
             <div className='bg-[rgba(65,47,123,0.15)] rounded-lg px-6 py-8 h-full flex flex-col justify-between items-center group hover:shadow-lg duration-300 cursor-pointer hover:bg-[rgba(89,65,169,0.15)] transition-all'>
               
               {/* Image */}
-              <div className='w-full aspect-[3/2] relative mb-4'> {/* Changed aspect ratio */}
+              <div className='w-full relative mb-4 h-[150px] sm:h-[180px] md:h-[200px] lg:h-[220px]'>
+
                 <Image 
                   src={item.image} 
                   alt={item.title} 

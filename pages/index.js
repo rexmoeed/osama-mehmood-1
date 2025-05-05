@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 // next image
 import Image from 'next/image';
+import Link from 'next/link';
 
 // components
 import ParticlesContainer from '../components/ParticlesContainer';
@@ -45,9 +46,12 @@ const Home = () => {
           </motion.p>
 
           {/* button mobile */}
-          <div className='flex justify-center xl:hidden relative'>
+          <motion.div variants={fadeIn('down', 0.4)}
+            initial='hidden'
+            animate='show'
+            exit='hidden' className='flex justify-center xl:hidden relative' href="/work" >
             <ProjectsBtn />
-          </div>
+          </motion.div>
 
           {/* button desktop */}
           <motion.div

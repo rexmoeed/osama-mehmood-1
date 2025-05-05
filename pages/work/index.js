@@ -25,7 +25,7 @@ const Work = () => {
             <motion.p variants={fadeIn('up', 0.4)} 
             initial="hidden" 
             animate="show" 
-            exit="hidden" className='mb-4 max-w-[400px] mx-auto lg:mx-0'> I've helped businesses grow through digital marketing, branding, and innovation—turning startups into leaders and guiding individuals to success.
+            exit="hidden" className='mb-4 max-w-[400px] mx-auto lg:mx-0'> I've helped businesses grow through digital marketing, branding, and innovation—turning.
             </motion.p>
           </div>
           {/* slider */}

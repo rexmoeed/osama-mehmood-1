@@ -130,13 +130,13 @@ const TestimonialSlider = () => {
             <div className='bg-[rgba(65,47,123,0.15)] rounded-lg px-6 py-8 h-full flex flex-col justify-between items-center group hover:shadow-lg duration-300 cursor-pointer hover:bg-[rgba(89,65,169,0.15)] transition-all'>
               
               {/* Image */}
-              <div className='w-full relative mb-4 h-[150px] sm:h-[180px] md:h-[200px] lg:h-[220px]'>
-
+              <div className='w-full relative mb-4 h-[150px] sm:h-[160px] md:h-[170px] lg:h-[150px] xl:h-[140px]'>
                 <Image 
                   src={item.image} 
                   alt={item.title} 
                   fill
                   className='rounded-lg object-cover'
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
               </div>
 
@@ -152,7 +152,7 @@ const TestimonialSlider = () => {
                     {item.title}
                   </a>
                 </h3>
-                <p className='max-w-[px] leading-normal'>{item.description}</p>
+                <p className='max-w-[300px] leading-normal'>{item.description}</p>
               </div>
 
               {/* Arrow */}

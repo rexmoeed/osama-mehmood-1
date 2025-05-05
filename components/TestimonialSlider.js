@@ -37,6 +37,68 @@ const serviceData = [
     image: '/BB.png',
     link: 'https://www.blushbloom.co.uk/',
   },
+  {
+    title: 'New Lahore City',
+    description: 'Enhanced our online presence with effective digital marketing.',
+    image: '/NewLahoreCity.png',
+    link: 'https://newlahorecity.com/',
+  },
+
+  {
+    title: 'Citi Housing (Pvt)',
+    description: 'Strategic digital marketing initiatives that helped Citi Housing grow its audience.',
+    image: '/CitiHousing.png',
+    link: 'https://www.citihousing.pk/',
+  },
+
+  {
+    title: 'ML Sense',
+    description: 'Empowered ML Sense to reach new heights with impactful digital marketing solutions.',
+    image: '/MLSense.png',
+    link: 'https://www.mlsense.ai/',
+  },
+  {
+    title: 'Home Financing Advisor',
+    description: 'Helped to connect with more clients through tailored marketing campaigns.',
+    image: '/HomeFinancingAdvisor.png',
+    link: '',
+  },
+  {
+    title: 'Peeraan',
+    description: 'Elevated our brand presence with impactful digital marketing strategies.',
+    image: '/Peeraa.png',
+    link: '',
+  },
+  {
+    title: 'Guarantee Estimation LLC',
+    description: 'Drove targeted online marketing campaigns to elevate Guarantee Estimation brand recognition.',
+    image: '/GT.png',
+    link: 'https://guaranteeestimation.com/',
+  },
+  {
+    title: 'Tarpaulins Direct',
+    description: 'With their help, we were able to reach a broader audience and enhance customer engagement like never before.',
+    image: '/TD.png',
+    link: 'https://tarpaulinsdirect.co.uk/',
+  },
+  {
+    title: 'Bake Box',
+    description: 'The team’s tailored marketing efforts helped us improve our online visibility and attract new customers.',
+    image: '/BB.png',
+    link: 'https://www.bakeboxboutique.co.uk/',
+  },
+  {
+    title: 'Med Sites',
+    description: 'Their tailored strategies have helped us reach new clients and strengthen our position as a leader in the healthcare sector.',
+    image: '/Medsites.png',
+    link: 'https://med-sites.com',
+  },
+  {
+    title: 'UBREAK.WEFIXIT',
+    description: 'By targeting the right audience with precision, they’ve helped elevate UBREAK.WEFIXIT as a top choice for device repair services.',
+    image: '/UWE.png',
+    link: 'https://ubreakwefixit.co.uk/',
+  },
   
 ];
 

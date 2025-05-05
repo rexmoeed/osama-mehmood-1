@@ -41,7 +41,7 @@ const Testimonials = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className='w-full xl:max-w-[60%]'
+            className='w-full xl:max-w-[80%] xl:ml-0 xl:mr-auto' // Adjust max width and margin
           >
             <TestimonialSlider />
           </motion.div>

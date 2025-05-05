@@ -104,7 +104,7 @@ const serviceData = [
 
 const TestimonialSlider = () => {
   return (
-    <div className="w-full max-w-[750px] mx-auto px-4">
+    <div className="w-full max-w-[700px] mx-auto px-4">
       <Swiper
         breakpoints={{
           320: {

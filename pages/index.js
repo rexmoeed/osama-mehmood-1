@@ -1,11 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
 // next image
 import Image from 'next/image';
-import Link from 'next/link';
 
 // components
 import ParticlesContainer from '../components/ParticlesContainer';
-import ProjectsBtn from '../components/ProjectsBtn';
+import dynamic from 'next/dynamic';
 import Avatar from '../components/Avatar';
 
 // framer motion
@@ -13,6 +12,9 @@ import { motion } from 'framer-motion';
 
 // variants
 import { fadeIn, variants } from '../variants'; // Assuming you are exporting 'variants' from the file
+
+// Dynamically import ProjectsBtn to avoid hydration issues
+const ProjectsBtn = dynamic(() => import('../components/ProjectsBtn'), { ssr: false });
 
 const Home = () => {
   return (
@@ -41,15 +43,17 @@ const Home = () => {
             exit='hidden'
             className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'
           >
-            I'm Osama Mehmood, a digital marketing expert and serial businesses owner with 9+ years of 
+            I'm Osama Mehmood, a digital marketing expert and serial business owner with 9+ years of 
             experience helping businesses grow through innovative online solutions.
           </motion.p>
 
           {/* button mobile */}
-          <motion.div variants={fadeIn('down', 0.4)}
+          <motion.div 
+            variants={fadeIn('down', 0.4)}
             initial='hidden'
             animate='show'
-            exit='hidden' className='flex justify-center xl:hidden relative' href="/work" >
+            exit='hidden' 
+            className='flex justify-center xl:hidden relative z-10'>
             <ProjectsBtn />
           </motion.div>
 
@@ -59,7 +63,7 @@ const Home = () => {
             initial='hidden'
             animate='show'
             exit='hidden'
-            className='hidden xl:flex'
+            className='hidden xl:flex relative z-10'
           >
             <ProjectsBtn />
           </motion.div>
@@ -73,8 +77,7 @@ const Home = () => {
         <div className='bg-none xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-0'>
         </div>
         {/* particles */}
-         
-         <ParticlesContainer />
+        <ParticlesContainer />
 
         {/* avatar img */}
         <motion.div 
@@ -83,9 +86,8 @@ const Home = () => {
           animate='show'
           exit='hidden'
           transition={{duration: 2, ease:'easeInOut'}}
-        className='w-full h-full max-w-[600px] max-h-[530px] absolute bottom-32 lg:bottom-0 lg:right-[5%]'> 
+          className='w-full h-full max-w-[600px] max-h-[530px] absolute bottom-32 lg:bottom-0 lg:right-[5%]'> 
           <Avatar />
-
         </motion.div>
       </div>
     </div>
